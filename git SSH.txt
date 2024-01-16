@@ -1,0 +1,23 @@
+ssh:
+git@github.com:HamzaCh9/Git-Repo-Learn.git
+
+https:
+https://github.com/HamzaCh9/Git-Repo-Learn.git
+
+
+…or create a new repository on the command line
+________________________________________________
+echo "# Git-Repo-Learn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HamzaCh9/Git-Repo-Learn.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+________________________________________________
+git remote add origin https://github.com/HamzaCh9/Git-Repo-Learn.git
+git branch -M main
+git push -u origin main
